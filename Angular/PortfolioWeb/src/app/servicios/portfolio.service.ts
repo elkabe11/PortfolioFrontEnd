@@ -6,10 +6,11 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortfolioService {
-
+  
+  url: string = "http://localhost:8080/";
   constructor(private http:HttpClient) {}
 
-  obtenerDatos():Observable<any> {
-    return this.http.get("src\assets\data\data.json");
+  obtenerDatos():Observable<any>{
+    return this.http.get(this.url+"ver/personas");
   }
 }

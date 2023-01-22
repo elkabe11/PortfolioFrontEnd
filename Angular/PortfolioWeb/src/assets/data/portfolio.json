@@ -1,0 +1,38 @@
+[
+{"type":"header","version":"5.2.0","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"portfolio"},
+{"type":"table","name":"educacion","database":"portfolio","data":
+[
+{"id":"1","titulo":"Bachillerato con orientación a Comunicación, Arte y Diseño","lugar":"Escuela N° 7 (Ciudad 9 de julio)) ","fecha_inicio":"2008","fecha_fin":"2012","persona_id":"1"},
+{"id":"2","titulo":"Asistente administrativo de centros de salud","lugar":"Coefix","fecha_inicio":"2021","fecha_fin":"2021","persona_id":"1"},
+{"id":"3","titulo":"Licenciatura en informática ","lugar":"Universidad Nacional La Plata","fecha_inicio":"2022","fecha_fin":"Actualidad","persona_id":"1"},
+{"id":"4","titulo":"Desarrollador Web Full Stack ","lugar":"Argentina Programa ","fecha_inicio":"2022","fecha_fin":"Actualidad","persona_id":"1"}
+]
+}
+,{"type":"table","name":"experiencia_laboral","database":"portfolio","data":
+[
+{"ind":"1","puesto":"Atención al cliente","lugar":"Fotocopiadora","descripcion":"Realizada tareas de atención, manejo de impresoras, exposición y venta de artículos de librería, recepción y atención a distribuidores y técnicos.","persona_id":"1"},
+{"ind":"2","puesto":"Auxiliar en recuperación de costos","lugar":"Hospital Sor Maria Ludovica","descripcion":"Uso y manejo de PC y herramientas informáticas para la verificación validación de servicios prestados en el establecimiento. Consultas a obras sociales. ","persona_id":"1"},
+{"ind":"3","puesto":"Administrativo en centro de salud ","lugar":"Cytec","descripcion":"Uso de herramientas informáticas e impresoras.\r\nCarga de datos de estudios médicos en sistema, tipeo y redacción de informen.\r\n\r\n  ","persona_id":"1"}
+]
+}
+,{"type":"table","name":"persona","database":"portfolio","data":
+[
+{"id":"1","nombre":"Micael","apellido":"Galdos","domicilio":"Calle 122 e 41 y 42 N° 473","edad":"30","telefono":"02213534367","email":"micaelgaldos@hotmail.com","sobre_mi":"Soy estudiante en la Universidad nacional de la Plata (UNLP), en el programa Argentina Programa y trabajo como administrativos en un centro de salud.\r\nSoy una persona responsable y dedico mucho tiempo a desarrollo y crecimiento.\r\nBuena predisposición, comunicación, abordaje y resolución de problemas.","img_url":"assets\/img\/perfil2.jpg"}
+]
+}
+,{"type":"table","name":"proyecto","database":"portfolio","data":
+[
+{"id":"1","nombre":"Portfolio Web","descripcion":"Desarrollo de Portfolio Web basado en Angular y Spring Boot","img_url":"assets\\img\\Img-Proyecto.png","persona_id":"1"}
+]
+}
+,{"type":"table","name":"skills","database":"portfolio","data":
+[
+{"id":"1","skill":"Resolución de problemas","porcentaje":"80","persona_id":"1"},
+{"id":"2","skill":"Capacidad de adaptación","porcentaje":"75","persona_id":"1"},
+{"id":"3","skill":"Comunicación oral","porcentaje":"80","persona_id":"1"},
+{"id":"4","skill":"Trabajo en equipo","porcentaje":"80","persona_id":"1"},
+{"id":"5","skill":"Manejo del tiempo y organización","porcentaje":"70","persona_id":"1"}
+]
+}
+]
